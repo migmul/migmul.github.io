@@ -4,48 +4,294 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Miguel Muller</title>
-    <meta name="description" content="Portfolio de Miguel Muller, monteur vidéo en Alsace."/>
+    <meta name="description" content="Portfolio de Miguel Muller, monteur vidéo intermittent."/>
+    <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/logo/logo_32.png">
+    <script defer src="https://analytics.oc1.migmul.dpdns.org/script.js" data-website-id="f681a52d-7944-48cc-ba8d-39864cbc83b0"></script>
 </head>
 <body>
     <header>
-        <div class="nom">
-            <h1>Miguel Muller</h1>
-        </div>
+        <h1 class="nom"><a href="/">Miguel Muller</a></h1>
         <nav>
             <ul>
-                <li><a href="/">À propos</a></li>
-                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="portfolio" class="actif">Portfolio</a></li>
                 <li><a href="cv">CV</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="portfolio">
             <h2>Portfolio</h2>
-            <h3>Reportages news</h3>
-            <p>Playlist YouTube de mes reportages montés pour France 3 Alsace</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=1tTx9hyvzZCkSXNs&amp;list=PLhUWliDeiBP_kuYCfUrRp5BjpRaf2UPqu&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- Reportages news -->
+            <h3>Télévision</h3>
+            <p>Reportages news que j'ai pu monter pour France Télévisions</p>
+            <div class="card-grid">
+                <div class="card" data-video-id="iZimzuoDqoU">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/iZimzuoDqoU.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Une nuit sur l'autoroute avec les agriculteurs</h4>
+                        <p>T. Petit / J. Gosset - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="l6GUli4FzUk">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/l6GUli4FzUk.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Les gestes verriers reconnus par l'Unesco</h4>
+                        <p>C. Munsch / C. Huber / A. Meyer - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="U8A_Z2ewx-M">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/U8A_Z2ewx-M.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Volotea remplace Ryanair à Strasbourg</h4>
+                        <p>D. Sandona / E. Gambette / M. Ruch - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="DoaN5P9ZqZc">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/DoaN5P9ZqZc.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Chantier du restaurant de la Tour de l'Europe à Mulhouse</h4>
+                        <p>L. Campisi / T. Sitter - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="wucakDEgtLA">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/wucakDEgtLA.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>La lutte contre les scolytes en forêt de Barr</h4>
+                        <p>C. Munsch / F. Grandon - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="JuyjFu_vSZ0">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/JuyjFu_vSZ0.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Des têtes de pylônes remplacées par hélicoptère</h4>
+                        <p>O. Stephan / D. Meneu - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="XD1MdSaLQ5U">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/XD1MdSaLQ5U.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Le succès de la techno en Alsace</h4>
+                        <p>L. Zimmer / C. Laemmel - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="gR-nHreWUAE">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/gR-nHreWUAE.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Les élections américaines suivies en Alsace</h4>
+                        <p>O. Stephan / J. Gosset - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="umlMAi0YC74">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/umlMAi0YC74.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Citiz, l'autopartage se déploie encore plus à Strasbourg</h4>
+                        <p>B. Garguy-Chartier / E. Gambette - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="M75OailkGOc">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/M75OailkGOc.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Ouverture d'un magasin de producteurs bio à l'ancienne manufacture des tabacs</h4>
+                        <p>N. Ly / C. Huber - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="C4x7UNc3rrw">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/C4x7UNc3rrw.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Châteaux et légendes en Alsace</h4>
+                        <p>A. Bucur / G. Bertrand - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="eAnszhE4Huc">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/eAnszhE4Huc.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Le centre de soin de la LPO croule sous les bébés animaux</h4>
+                        <p>S. Malal / Q. Gilles - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="nizq68oxtrs">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/nizq68oxtrs.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Le propriétaire en prison, ses cochons et moutons laissés à l'abandon</h4>
+                        <p>M. Martin / C. Delcroix - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="E8IVMqAOV0o">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/E8IVMqAOV0o.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Le concours des plus belles prairies fleuries</h4>
+                        <p>C. Huber / J. Gosset - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="reoqzCNAYp4">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/reoqzCNAYp4.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Guy Gilbert, le curé des loubards est en tournée pour ses 60 ans de sacerdoce</h4>
+                        <p>C. Peyrot / M.-C. Lang Bouvet - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="5VJvoxxYYRk">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/5VJvoxxYYRk.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Fun car show, le plus grand rassemblement d'Europe de voitures customisées</h4>
+                        <p>S. Mallauran / V. Heitz - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="2B9JN0zJwKM">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/2B9JN0zJwKM.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Les pompiers apprennent à gérer un cheval en intervention</h4>
+                        <p>K. Gelebart / T. Sitter - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="EyNCMD71Ufs">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/EyNCMD71Ufs.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Pierre Kuntz, triple champion du monde de pêche à la mouche</h4>
+                        <p>D. Meneu / G. Bertrand - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="xl7v4XcT7MA">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/xl7v4XcT7MA.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Cures thermales : vers la fin du remboursement ?</h4>
+                        <p>O. Barthelemy / E. Gambette - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="EdTTONaim9k">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/EdTTONaim9k.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Quand la pluie fait le bonheur des agriculteurs</h4>
+                        <p>D. Sandona / C. Huber - France 3 Alsace</p>
+                    </div>
+                </div>
+                <div class="card zoom" data-video-id="BYrdFhYVFVE">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/BYrdFhYVFVE.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Le Royal Palace présente sa nouvelle revue</h4>
+                        <p>J. Galichet / T. Sitter - France 3 Alsace</p>
+                    </div>
+                </div>
+                <!-- <div class="card" data-video-id="">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div> -->
             </div>
+
+            <!-- BTS -->
             <h3>Reportages dans le cadre de mon BTS Audiovisuel</h3>
             <p>Montage et étalonnage de deux modules sur la vie et la retraite d'un chien guide, pour l'association "Chiens Guides de l'Est".</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=yS5-eV6SeAWQXWcu&amp;list=PLhUWliDeiBP91PYGWyjpTYNPVBQgEPGH8&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="card-grid">
+                <div class="card" data-video-id="E15ajOAyot4">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/E15ajOAyot4.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Un regard pour deux</h4>
+                        <p>Chien-guide, un compagnon au quotidien</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="lZwgMYoJc2U">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/lZwgMYoJc2U.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Un regard pour deux</h4>
+                        <p>Objectif accompli, retraite bien méritée</p>
+                    </div>
+                </div>
             </div>
-            <h3>Interviews</h3>
-            <p>Réalisation, tournage et montage de capsules vidéos pour la page Instagram @KléberMêmes, <br>dont l'interview d'Yvan Monka, professeur de mathématiques et YouTuber.</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=DMhoaiqfl-CpLEJS&amp;list=PLhUWliDeiBP-TtUMfCXtIlAl8FGFIG70q&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <h3>Institutionnel / publicité</h3>
-            <p>Voeux de Regis Greiner - Axima Réfrigération : <a href="https://bit.ly/AximaVoeux2023">https://bit.ly/AximaVoeux2023</a></p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=UBFyUEH6IWxehI-a&amp;list=PLhUWliDeiBP-CxSBrjnDLrYz_S3Px3_Lm&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <!-- Autres -->
+            <h3>Autres projets</h3>
+            <p></p>
+            <div class="card-grid">
+                <div class="card" data-video-id="PH0iGc64U-s">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/PH0iGc64U-s.jpg" alt="Miniature de la vidéo">
+                    </div>  
+                    <div class="card-content">
+                        <h4>Interview d'Yvan Monka</h4>
+                        <p>Interview d'Yvan Monka, professeur de mathématiques et YouTubeur, pour la chaîne @Gugurban</p>
+                    </div>
+                </div>
+                <div class="card" data-video-id="6Tb2TY9NYSE">
+                    <div class="card-thumbnail">
+                        <img src="assets/images/minias/6Tb2TY9NYSE.jpg" alt="Miniature du reportage">
+                    </div>  
+                    <div class="card-content">
+                        <h4>KléberMêmes</h4>
+                        <p>Réalisation, tournage et montage de capsules vidéos d'interview de professeur du lycée pour la page Instagram @KléberMêmes</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+    <!-- Modal vidéo -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <button class="video-modal-close">&times;</button>
+            <div class="video-wrapper">
+                <iframe id="videoPlayer" 
+                        src="" 
+                        frameborder="0" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/modal.js"></script>
 </body>
 </html>

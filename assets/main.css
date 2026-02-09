@@ -1,0 +1,32 @@
+/* =========================================
+   0. VARIABLES & RESETS
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Funnel Display'; /* 300-800 */
+    src:url("https://migmul.fr/assets/FunnelDisplay.ttf");
+}
+
+/* =========================================
+   1. GLOBAL
+   ========================================= */
+
+body {
+    background-color: var(--back);
+    background-image: radial-gradient(var(--back-dots) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: var(--text);
+    font-family: 'Funnel Display', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

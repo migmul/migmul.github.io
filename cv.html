@@ -4,30 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Miguel Muller</title>
-    <meta name="description" content="CV de Miguel Muller, monteur vidéo en Alsace."/>
+    <meta name="description" content="CV de Miguel Muller, monteur vidéo intermittent."/>
+    <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/logo/logo_32.png">
+    <script defer src="https://analytics.oc1.migmul.dpdns.org/script.js" data-website-id="f681a52d-7944-48cc-ba8d-39864cbc83b0"></script>
 </head>
 <body>
     <header>
-        <div class="nom">
-            <h1>Miguel Muller</h1>
-        </div>
+        <h1 class="nom"><a href="/">Miguel Muller</a></h1>
         <nav>
             <ul>
-                <li><a href="/">À propos</a></li>
                 <li><a href="portfolio">Portfolio</a></li>
-                <li><a href="cv">CV</a></li>
+                <li><a href="cv" class="actif">CV</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="cv">
-            <img src="assets/cv/cv25.jpg" alt="CV de Miguel Muller">
-            <a href="assets/cv/CV_MiguelMuller_2025.pdf" download="CV_MiguelMuller_2025.pdf" class="save">
-                <img src="assets/images/save.svg" alt="Icône de téléchargement"> Télécharger mon CV
+        <section class="cv-section">
+            <h2>Curriculum Vitae</h2>
+            
+            <!-- Bouton de téléchargement -->
+            <a href="assets/cv/CV_MiguelMuller_2025.pdf" download class="save">
+                <img src="assets/images/save.svg" alt=""> Télécharger mon CV
             </a>
+
+            <!-- Section Compétences -->
+            <div class="cv-categorie">
+                <h3>Compétences</h3>
+                <div class="card-grid">
+                    <div class="cv-card">
+                        <h4>Montage vidéo & étalonnage</h4>
+                        <p>Avid Media Composer, DaVinci Resolve, Adobe Premiere Pro, Final Cut Pro X</p>
+                    </div>
+                    <div class="cv-card">
+                        <h4>Retouche d'images</h4>
+                        <p>Photoshop, Lightroom,  Pixelmator Pro, Photomator Pro</p>
+                    </div>
+                    <div class="cv-card">
+                        <h4>Réseau</h4>
+                        <p>Utilisation et configuration de postes de travail, serveurs Avid NEXIS, TrueNAS et Linux</p>
+                    </div>
+                    <div class="cv-card">
+                        <h4>Informatique</h4>
+                        <p>Installation et configuration de systèmes d'exploitation et de logiciels, maintenance matérielle et logicielle</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Expériences et Formation -->
+            <div class="cv-categorie">
+                <h3>Expériences et Formation</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - Aujourd'hui</div>
+                        <div class="timeline-content">
+                            <h4>France 3 Alsace</h4>
+                            <p class="subtitle">Monteur vidéo intermittent</p>
+                            <p>Montage de sujets news avec un rédacteur pour les journaux télévisés ICI 12/13 et ICI 19/20.</p>
+                            <p class="note">Mes différentes réalisations sont disponibles dans mon <a href="/portfolio">portfolio</a>.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">4 semaines - 2022</div>
+                        <div class="timeline-content">
+                            <h4>Via Storia</h4>
+                            <p class="subtitle">Stage de 2ème année de BTS Audiovisuel</p>
+                            <p>Montage multi-caméra de séances de sport pour une application et de vidéos institutionnelles.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">6 semaines - 2022</div>
+                        <div class="timeline-content">
+                            <h4>France 3 Alsace</h4>
+                            <p class="subtitle">Stage de 1ère année de BTS Audiovisuel</p>
+                            <p>Observation et montage de sujets d'actualités pour les journaux télévisés de la chaîne et adaptations de sujets pour le web.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <div class="timeline-content">
+                            <h4>BTS Audiovisuel</h4>
+                            <p class="subtitle">Montbéliard (25)</p>
+                            <p>Option montage et post-production</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h4>Baccalauréat</h4>
+                            <p class="subtitle">Lycée Kléber (67)</p>
+                            <p>Spécialités Sciences de l'ingénieur et Sciences et vie de la Terre, mention assez bien</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Informations complémentaires -->
+            <div class="cv-categorie">
+                <h3>Informations complémentaires</h3>
+                <div class="card-grid">
+                    <div class="cv-card">
+                        <h4>Langues</h4>
+                        <p><strong>Portugais</strong> : Langue maternelle<br>
+                        <strong>Anglais</strong> : B2, appliqué à l'audiovisuel et l'informatique</p>
+                    </div>
+                    <div class="cv-card">
+                        <h4>Certifications</h4>
+                        <p>Formation de télé-pilote sous-catégories A1/A3</p>
+                        <p>Pix 630/768</p>
+                    </div>
+                    <div class="cv-card">
+                        <h4>Autres</h4>
+                        <p>Permis B</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Centres d'intérêt -->
+            <div class="cv-categorie">
+                <h3>Centres d'intérêt</h3>
+                <div class="interests">
+                    <span class="interest">Informatique</span>
+                    <span class="interest">Photographie</span>
+                    <span class="interest">Sport automobile</span>
+                    <span class="interest">Aérospatial</span>
+                    <span class="interest">Nouvelles technologies</span>
+                </div>
+            </div>
+
         </section>
     </main>
 </body>

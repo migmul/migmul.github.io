@@ -3,48 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos - Miguel Muller</title>
-    <meta name="description" content="Site de Miguel Muller, monteur vidéo en Alsace."/>
+    <title>Miguel Muller</title>
+    <meta name="description" content="Site de Miguel Muller, monteur vidéo."/>
+    <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/images/logo/logo_32.png">
+    <script defer src="https://analytics.oc1.migmul.dpdns.org/script.js" data-website-id="f681a52d-7944-48cc-ba8d-39864cbc83b0"></script>
 </head>
 <body>
     <header>
-        <div class="nom">
-            <h1>Miguel Muller</h1>
-        </div>
+        <h1 class="nom"><a href="/">Miguel Muller</a></h1>
         <nav>
             <ul>
-                <li><a href="/">À propos</a></li>
                 <li><a href="portfolio">Portfolio</a></li>
                 <li><a href="cv">CV</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="about">
-            <img src="assets/images/myphoto.png" alt="Photo de Miguel Muller">
-            <div class="bio">
-                <p>Monteur vidéo intermittent du spectacle, je suis à la recherche de nouvelles opportunités professionnelles.</p>
-                <p>Diplômé d’un BTS Audiovisuel option montage et post-production, je suis passionné par l’informatique et les nouvelles technologies. Mon expérience dans le montage vidéo et la post-production m'a permis de travailler sur différents projets, mais je monte principalement des reportages JT.</p>
-                <p>Rigoureux et avide d’acquérir de nouvelles compétences, j’aime découvrir et maîtriser de nouveaux outils.</p>
+        <section class="bio">
+            <h1 class="bio-title">Miguel Muller</h1>
+            <p class="bio-subtitle">Monteur vidéo · Intermittent du spectacle</p>
+            <p class="bio-description">
+                Passionné par le montage vidéo, je travaille principalement sur des reportages JT pour France Télévisions.
+                Diplômé d'un BTS Audiovisuel, je suis à la recherche de nouvelles opportunités professionnelles.
+            </p>
+            <div class="bio-liens">
+                <a href="portfolio" class="bio-btn primary">Voir mon portfolio</a>
+                <a href="cv" class="bio-btn secondary">Mon CV</a>
             </div>
         </section>
-        <section class="contact-icons">
-            <a href="https://youtube.com/@miguelmllr">
-                <img src="assets/images/youtube.svg" alt="YouTube">
+
+        <div class="contact-icons">
+            <a href="mailto:contact@miguelmuller.fr" target="_blank" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /><path d="M3 7l9 6l9 -6" /></svg>
             </a>
-            <a href="https://linkedin.com/in/miguelmllr" target="_blank">
-                <img src="assets/images/linkedin.svg" alt="LinkedIn">
+            <a href="tel:+33684295069" target="_blank" aria-label="Téléphone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
             </a>
-            <a href="mailto:mig.mllr@gmail.com">
-                <img src="assets/images/mail.svg" alt="Email">
+            <a href="https://www.linkedin.com/in/miguelmllr" target="_blank" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" /></svg>
             </a>
-            <a href="tel:+33684295069">
-                <img src="assets/images/phone.svg" alt="Téléphone">
-            </a>
-        </section>
+        </div>
     </main>
 </body>
 </html>
