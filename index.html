@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Miguel Muller</title>
-
-    <style type="text/css">
-      * {
-        box-sizing: border-box;
-      }
-      html, body {
-      height: 100%;
-      margin: 0;
-      background: #000;
-      }
-      main {
-      height: 100%;
-      margin: 0 auto;
-      max-width: 700px;
-      padding: 30px;
-      display: table;
-      text-align: center;
-      }
-      main > * {
-      display: table-cell;
-      vertical-align: middle;
-      }
-
-      body
-      {
-      font: 20px Helvetica, sans-serif; color: #fff;
-      }
-      @keyframes blink {50% { color: transparent }}
-      .dot { animation: 1s blink infinite }
-      .dot:nth-child(2) { animation-delay: 250ms }
-      .dot:nth-child(3) { animation-delay: 500ms }
-    </style>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLFKFKF6WX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-VLFKFKF6WX');
-    </script>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Miguel Muller</title>
+    <meta name="description" content="Site de Miguel Muller, monteur vidéo en Alsace."/>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/logo/logo_32.png">
+</head>
+<body>
+    <header>
+        <div class="nom">
+            <h1>Miguel Muller</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">À propos</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="cv">CV</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-      <div>
-        <h1>Site en cours de création<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></h1>
-      </div>
+        <section class="about">
+            <img src="assets/images/myphoto.png" alt="Photo de Miguel Muller">
+            <div class="bio">
+                <p>Monteur vidéo intermittent du spectacle, je suis à la recherche de nouvelles opportunités professionnelles.</p>
+                <p>Diplômé d’un BTS Audiovisuel option montage et post-production, je suis passionné par l’informatique et les nouvelles technologies. Mon expérience dans le montage vidéo et la post-production m'a permis de travailler sur différents projets, mais je monte principalement des reportages JT.</p>
+                <p>Rigoureux et avide d’acquérir de nouvelles compétences, j’aime découvrir et maîtriser de nouveaux outils.</p>
+            </div>
+        </section>
+        <section class="contact-icons">
+            <a href="https://youtube.com/@miguelmllr">
+                <img src="assets/images/youtube.svg" alt="YouTube">
+            </a>
+            <a href="https://linkedin.com/in/miguelmllr" target="_blank">
+                <img src="assets/images/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="mailto:mig.mllr@gmail.com">
+                <img src="assets/images/mail.svg" alt="Email">
+            </a>
+            <a href="tel:+33684295069">
+                <img src="assets/images/phone.svg" alt="Téléphone">
+            </a>
+        </section>
     </main>
-  </body>
+</body>
 </html>
