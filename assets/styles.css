@@ -237,15 +237,6 @@ main {
     transform: scale(1.02);
 }
 
-/* Minias francetv avec bordure */
-.card.zoom .card-thumbnail img {
-    transform: scale(1.07) translateY(-4px);
-}
-
-.card.zoom:hover .card-thumbnail img {
-    transform: scale(1.09) translateY(-4px);
-}
-
 .card-content {
     padding: 15px;
 }
@@ -280,6 +271,7 @@ main {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.4s ease, visibility 0.4s ease;
+    --plyr-color-main: var(--main-light);
 }
 
 

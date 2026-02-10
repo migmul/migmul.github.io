@@ -6,17 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://migmul.fr/</loc>
-  <lastmod>2024-06-05T09:27:25+00:00</lastmod>
+  <lastmod>2026-02-10T11:30:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://migmul.fr/portfolio</loc>
-  <lastmod>2024-06-05T11:25:53+00:00</lastmod>
+  <lastmod>2026-02-10T11:30:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://migmul.fr/cv</loc>
-  <lastmod>2024-06-05T09:27:36+00:00</lastmod>
+  <lastmod>2026-02-10T11:30:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://migmul.fr/contact</loc>
+  <lastmod>2026-02-10T11:30:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
