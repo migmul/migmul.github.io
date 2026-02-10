@@ -30,6 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 </video>
             `;
             
+            window.lastVideoId = baseName;  
+
             setTimeout(() => {
                 if (typeof Plyr !== 'undefined') {
                     plyrInstance = new Plyr('.plyr-player', {
@@ -47,6 +49,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         tooltips: { controls: true, seek: true }
                     });
                     
+                    if (typeof umami !== 'undefined') {
+                        umami.track('Portfolio - Ouverture vidéo', {
+                            video_id: baseName,
+                            video_title: this.querySelector('h4').textContent,
+                            reporter: this.querySelector('p').textContent
+                        });
+                    }
+
                     plyrInstance.play().catch(e => console.log('Autoplay:', e));
                 }
             }, 150);
@@ -58,6 +68,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Fermer le modal
     function closeModal() {
+        if (typeof umami !== 'undefined' && plyrInstance) {
+            const currentTime = plyrInstance.currentTime;
+            const duration = plyrInstance.duration;
+            
+            umami.track('Portfolio - Fermeture vidéo', {
+                video_id: window.lastVideoId || 'unknown',
+                watch_time: Math.round(currentTime),
+                duration: Math.round(duration),
+                pourcentage: Math.round((currentTime / duration) * 100)
+            });
+        }
         modal.classList.remove('active');
         document.body.style.overflow = '';
 
